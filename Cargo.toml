@@ -1,0 +1,10 @@
+[package]
+name = "open-entry-lib-example"
+version = "0.0.1"
+edition = "2021"
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+open-entry-bindings = "1.0.2"
